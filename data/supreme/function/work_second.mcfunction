@@ -1,0 +1,3 @@
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:enchanted_book",components:{"minecraft:stored_enchantments":{"minecraft:efficiency":6}}}}] run scoreboard players set @s supreme.type 1
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:enchanted_book",components:{"minecraft:stored_enchantments":{"minecraft:unbreaking":4}}}}] run scoreboard players set @s supreme.type 2
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:enchanted_book"}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:netherite_block"}}] unless score @s supreme.type matches 0 run function supreme:work_third

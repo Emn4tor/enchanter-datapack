@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "IAI",
+    "IBI",
+    "CDC"
+  ],
+  "key": {
+    "A": [
+      "minecraft:netherite_ingot"
+    ],
+    "B": [
+      "minecraft:nether_star"
+    ],
+    "C": [
+      "minecraft:crying_obsidian"
+    ],
+    "D": [
+      "minecraft:enchanting_table"
+    ],
+    "I": [
+      "minecraft:diamond_block"
+    ]
+  },
+  "result": {
+    "id": "minecraft:armor_stand",
+    "count": 1,
+    "components": {
+      "entity_data": {
+        "id": "armor_stand",
+        "Tags": [
+          "supreme.block"
+        ],
+        "Invisible": true,
+        "NoGravity": true
+      },
+      "minecraft:item_model": "minecraft:lodestone",
+      "item_name": {
+        "text": "Supreme Enchanter",
+        "color": "dark_purple",
+        "bold": true
+      },
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:lore": [
+        {
+          "text": "An ancient forge of legendary power",
+          "color": "dark_purple",
+          "italic": true
+        }
+      ]
+    }
+  },
+  "show_notification": true
+}

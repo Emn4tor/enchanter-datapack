@@ -1,0 +1,5 @@
+kill @s
+kill @e[distance=..0.1,type=block_display]
+particle soul ~ ~ ~ 0 0 0 0.5 100 force
+particle dragon_breath ~ ~1 ~ 0.3 0.3 0.3 0.1 50 force
+summon item ~ ~ ~ {Motion:[0,0.1,0],Item:{"id":"minecraft:armor_stand","components":{"entity_data":{"id":"armor_stand","Tags":["supreme.block"],"Invisible":true,"NoGravity":true},"minecraft:item_model":"minecraft:lodestone","item_name":"{\"text\":\"Supreme Enchanter\",\"color\":\"dark_purple\",\"bold\":true}","minecraft:enchantment_glint_override":true,"minecraft:lore":["{\"text\":\"An ancient forge of legendary power\",\"color\":\"dark_purple\",\"italic\":true}","{\"text\":\"\"}","{\"text\":\"Throw two books atop this altar with a\",\"color\":\"light_purple\"}","{\"text\":\"Netherite Block to transcend limits\",\"color\":\"light_purple\"}","{\"text\":\"\"}","{\"text\":\"Efficiency VI → VII\",\"color\":\"aqua\"}","{\"text\":\"Unbreaking IV → V\",\"color\":\"aqua\"}"]}}}

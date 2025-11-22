@@ -1,0 +1,1 @@
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:netherite_block"}}] run function supreme:work_second

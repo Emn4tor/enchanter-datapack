@@ -1,0 +1,3 @@
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:enchanted_book",components:{"minecraft:stored_enchantments":{"minecraft:efficiency":5}}}}] run scoreboard players set @s efficient.type 1
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:enchanted_book",components:{"minecraft:stored_enchantments":{"minecraft:unbreaking":3}}}}] run scoreboard players set @s efficient.type 2
+execute if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:enchanted_book"}}] if entity @e[type=item,distance=..1,nbt={Item:{id:"minecraft:diamond_block"}}] unless score @s efficient.type matches 0 run function efficient:work_third
